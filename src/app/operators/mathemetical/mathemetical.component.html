@@ -1,0 +1,35 @@
+<div style="text-align: center;  
+font-size: x-large;  
+font-family: monospace;">Operator in RxJs</div>  
+<div style="margin:10px" class="card-deck">  
+    
+<ul class="list-group">
+    <li class="list-group-item">Mathemetical Operators</li>
+  
+    <li class="list-group-item list-group-item-primary">count</li>
+    <li class="list-group-item list-group-item-secondary">max</li>
+    <li class="list-group-item list-group-item-success">min</li>
+    <li class="list-group-item list-group-item-danger">reduce</li>
+</ul>
+
+<button type="button" class="btn btn-primary"
+  routerLink='/operators/utility'>Utility Operator</button>
+  <button type="button" class="btn btn-secondary"
+  (click)='back()'>Back</button>
+
+<!--   description of operator -->
+
+<!-- 
+
+* count 
+Counts the number of emissions on the source and emits that number when the source completes 
+
+* max 
+The Max operator operates on an Observable that emits numbers (or items that can be compared with a provided function), and when source Observable completes it emits a single item: the item with the largest value.
+
+* min
+The Max operator operates on an Observable that emits numbers (or items that can be compared with a provided function), and when source Observable completes it emits a single item: the item with the smallest value.
+
+* reduce
+A function that returns an Observable that emits a single value that is the result of accumulating the values emitted by the source Observable.
+-->

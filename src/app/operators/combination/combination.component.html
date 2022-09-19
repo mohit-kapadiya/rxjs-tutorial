@@ -1,0 +1,58 @@
+<div style="text-align: center;  
+font-size: x-large;  
+font-family: monospace;">Operator in RxJs</div>  
+<div style="margin:10px" class="card-deck">  
+    
+<ul class="list-group">
+    <li class="list-group-item">Combination Operators</li>
+  
+    <li class="list-group-item list-group-item-primary">combineLatest</li>
+    <li class="list-group-item list-group-item-secondary">concat</li>
+    <li class="list-group-item list-group-item-success">merge</li>
+    <li class="list-group-item list-group-item-danger">race</li>
+    <li class="list-group-item list-group-item-primary">startWith</li>
+    <li class="list-group-item list-group-item-secondary">withLatestFrom</li>
+    <li class="list-group-item list-group-item-success">zip</li>
+    <li class="list-group-item list-group-item-primary">forkJoin</li>
+</ul>
+
+<button type="button" class="btn btn-primary"
+routerLink='/operators/mathemetical'>Mathemetical  Operator</button>
+
+<button type="button" class="btn btn-secondary"
+(click)='back()'>Back</button>
+
+
+<!--   description of operator -->
+
+<!--
+
+* combineLatest
+using the latest value from each input
+emits any time a new value is emitted in any input 
+
+* forkJoin 
+using the last value from each input
+emits only last emitted value
+
+* concat
+Subscribe to observables in order as previous completes
+
+* merge 
+turn multiple observables into single observable
+
+* race
+The observable to emit first is used
+
+* startWith
+Emit given value first.
+
+* zip
+After all observables emit, emit values as an array
+
+* withLatestFrom
+Creates a combined stream from source and other provided streams.
+
+-->
+
+

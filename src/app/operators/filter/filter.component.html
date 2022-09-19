@@ -1,0 +1,46 @@
+<div style="text-align: center;  
+font-size: x-large;  
+font-family: monospace;">Operator in RxJs</div>
+<div style="margin:10px" class="card-deck"></div>
+
+<ul class="list-group">
+    <li class="list-group-item">Filtering Operators</li>
+  
+    <li class="list-group-item list-group-item-primary">filter</li>
+    <li class="list-group-item list-group-item-secondary">find</li>
+    <li class="list-group-item list-group-item-success">first</li>
+    <li class="list-group-item list-group-item-danger">take</li>
+    <li class="list-group-item list-group-item-primary">single</li>
+    <li class="list-group-item list-group-item-secondary">takeUntil</li>
+    <li class="list-group-item list-group-item-success">takeWhile</li>
+    <li class="list-group-item list-group-item-danger">last</li>
+</ul>
+
+<button type="button" class="btn btn-primary"
+  routerLink='/operators/transformation'>Transformation Operator</button>
+  <button type="button" class="btn btn-secondary"
+  (click)='back()'>Back</button>
+
+<!-- discription of operator 
+
+    * filter
+    Filter items emitted by the source Observable by only emitting those that satisfy a specified predicate.
+
+    * find
+    Emit the first item that passes predicate then complete
+
+    * first
+    Emit the first value or first to pass provided expression.
+
+    * take
+    Emit provided number of values before completing.
+
+    * takeLast
+    Emit the last n emitted values before completion
+
+    * takeUntil
+    Emit values until provided observable emits
+
+    * takeWhile
+    Emit values until provided expression is false
+-->

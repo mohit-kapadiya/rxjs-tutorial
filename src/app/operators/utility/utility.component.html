@@ -1,0 +1,44 @@
+<div style="text-align: center;  
+font-size: x-large;  
+font-family: monospace;">Operator in RxJs</div>  
+<div style="margin:10px" class="card-deck">  
+    
+<ul class="list-group">
+    <li class="list-group-item">Utility Operators</li>
+
+    <li class="list-group-item list-group-item-primary">tap</li>
+    <li class="list-group-item list-group-item-secondary">finalize</li>
+    <li class="list-group-item list-group-item-success">timeInterval</li>
+    <li class="list-group-item list-group-item-danger">delay</li>
+    <li class="list-group-item list-group-item-primary">delayWhen</li>
+    <li class="list-group-item list-group-item-secondary">repeat</li>
+    <li class="list-group-item list-group-item-success">timeout</li>
+    <li class="list-group-item list-group-item-success">toPromise</li>
+</ul>
+
+<button type="button" class="btn btn-primary"
+  routerLink='/operators/filter'>Filtering Operator</button>
+  <button type="button" class="btn btn-secondary"
+  (click)='back()'>Back</button>
+
+<!--
+
+* tap
+Used to perform side-effects for notifications from the source observable
+
+* finalize
+Call a function when observable completes or errors
+
+* repeat
+Repeats an observable on completion
+
+* delayWhen
+Delay emitted values determined by provided function
+
+* timeout
+The RxJS timeout() operator is a utility operator that allows us to abort the observable with an onError termination if that Observable fails to emit any items during a specified span of time.
+
+* topromise
+convert observable to promis
+
+-->

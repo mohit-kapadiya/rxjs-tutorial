@@ -1,0 +1,44 @@
+<div style="text-align: center;  
+font-size: x-large;  
+font-family: monospace;">Operator in RxJs</div>  
+<div style="margin:10px" class="card-deck">  
+
+<ul class="list-group">
+        <li class="list-group-item">Transformation Operators</li>
+    
+        <li class="list-group-item list-group-item-primary">map</li>
+        <li class="list-group-item list-group-item-secondary">pluck</li>
+        <li class="list-group-item list-group-item-danger"> merge/mergeAll/mergeMap</li>
+        <li class="list-group-item list-group-item-primary">exhaustMap</li>
+        <li class="list-group-item list-group-item-secondary">concatMap</li>
+        <li class="list-group-item list-group-item-success">expand</li>
+        <li class="list-group-item list-group-item-danger">toArray</li>
+        <li class="list-group-item list-group-item-primary">windowWhen</li>
+        <li class="list-group-item list-group-item-secondary">concat</li>
+</ul>
+
+<!-- description of operators 
+
+        * map
+        turns each emitted value into another value
+
+        * pluck
+        Select property to emit
+
+        * mergeMap
+        Projects each source value to an Observable which is merged in the output Observable.
+
+        * mergeAll
+        Every value that derives from an observable can be mapped into another value. Such a value can be even another observable which will produce a stream of streams.
+
+        * mergeMap()
+        
+        This operator allows for reducing the number of used operators. In fact, this one is a combination of map() (returning an observable) and mergeAll() operators.
+
+        * concat
+        The RxJS concat() operator is a join operator that creates an output Observable, which sequentially emits all values from the given Observable and then proceed to the next one.
+
+        * concatMap
+        The Angular ConcatMap maps each value from the source observable into an inner observable, subscribes to it, and then starts emitting the values from it replacing the original value.
+
+-->
